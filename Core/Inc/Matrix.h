@@ -21,6 +21,7 @@ private:
 	uint8_t x, y;
 	uint8_t transmit_minus[Y_reg];
 	uint8_t transmit_plus[X_reg];
+	uint8_t transmit_zero[X_reg];
 
 public:
 	Matrix(uint8_t x_in = X, uint8_t y_in = Y);

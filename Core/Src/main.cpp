@@ -54,6 +54,7 @@ static void MX_SPI1_Init(void);
 static void MX_SPI2_Init(void);
 /* USER CODE BEGIN PFP */
 
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -143,6 +144,12 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+  if (!(CoreDebug->DEMCR & CoreDebug_DEMCR_TRCENA_Msk)) {
+      CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk;
+      DWT->CYCCNT = 0;
+      DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+  }
+
 }
 
 /**
