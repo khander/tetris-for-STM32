@@ -1,4 +1,4 @@
-Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
+Core/Src/spi.o: ../Core/Src/spi.c ../Core/Inc/spi.h ../Core/Inc/main.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -21,9 +21,8 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
- C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
- ../Core/Inc/matrix.h ../Core/Inc/spi.h ../Core/Inc/main.h \
- ../Core/Inc/gpio.h
+ C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+../Core/Inc/spi.h:
 ../Core/Inc/main.h:
 C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -48,7 +47,3 @@ C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL
 C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
 C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:
-../Core/Inc/matrix.h:
-../Core/Inc/spi.h:
-../Core/Inc/main.h:
-../Core/Inc/gpio.h:

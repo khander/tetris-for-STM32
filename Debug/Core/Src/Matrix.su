@@ -1,7 +1,7 @@
-../Core/Src/Matrix.cpp:10:1:Matrix::Matrix(uint8_t, uint8_t)	24	static
-../Core/Src/Matrix.cpp:28:6:bool Matrix::put_pixel(uint8_t, uint8_t, bool)	16	static
-../Core/Src/Matrix.cpp:34:6:void Matrix::get_transmit_plus(uint8_t)	32	static
-../Core/Src/Matrix.cpp:41:6:void delay_us(uint32_t)	24	static
-../Core/Src/Matrix.cpp:47:9:uint8_t Matrix::print(SPI_HandleTypeDef*, SPI_HandleTypeDef*)	32	static
-../Core/Src/Matrix.cpp:82:1:Matrix::~Matrix()	16	static
-../Core/Src/Matrix.cpp:82:1:virtual Matrix::~Matrix()	16	static
+../Core/Src/matrix.cpp:10:1:Matrix::Matrix(uint8_t, uint8_t)	24	static
+../Core/Src/matrix.cpp:28:6:bool Matrix::put_pixel(uint8_t, uint8_t, bool)	16	static
+../Core/Src/matrix.cpp:34:6:void Matrix::get_transmit_plus(uint8_t)	32	static
+../Core/Src/matrix.cpp:41:6:void delay_us(uint32_t)	24	static
+../Core/Src/matrix.cpp:47:9:uint8_t Matrix::print(SPI_HandleTypeDef*, SPI_HandleTypeDef*)	32	static
+../Core/Src/matrix.cpp:76:1:Matrix::~Matrix()	16	static
+../Core/Src/matrix.cpp:76:1:virtual Matrix::~Matrix()	16	static

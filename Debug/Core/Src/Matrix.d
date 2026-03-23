@@ -1,4 +1,4 @@
-Core/Src/Matrix.o: ../Core/Src/Matrix.cpp ../Core/Inc/Matrix.h \
+Core/Src/matrix.o: ../Core/Src/matrix.cpp ../Core/Inc/matrix.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -22,7 +22,7 @@ Core/Src/Matrix.o: ../Core/Src/Matrix.cpp ../Core/Inc/Matrix.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
-../Core/Inc/Matrix.h:
+../Core/Inc/matrix.h:
 C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
 C:/Users/khaus/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:

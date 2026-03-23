@@ -5,7 +5,7 @@
  *      Author: khaus
  */
 
-#include "Matrix.h"
+#include <matrix.h>
 
 Matrix::Matrix(uint8_t x_in, uint8_t y_in) : x(x_in), y(y_in){
 	// TODO Auto-generated constructor stub
